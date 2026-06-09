@@ -430,6 +430,37 @@ Compile everything into a structured plan with these sections:
     - *Leave a trail.* Every important action writes a short log of what happened (what it did, whether it worked, how long it took, any error code). You will never read these yourself. But the day something breaks, that trail is what lets your AI find the problem in minutes instead of guessing for an hour.
     - *Keep the layers apart.* What the user sees (the screens) stays separate from the logic that makes decisions, which stays separate from where data is saved. Don't let them bleed into each other.
     - *Self-contained features.* Each feature lives in its own folder as one tidy piece, not smeared across the whole app.
+
+    Once you've picked the rules that fit, here's a ready-to-paste starting point. Copy this block into your project guide (CLAUDE.md or whatever your tool uses) and adapt the names to your app:
+
+    ```markdown
+    # House Rules for [Your App]
+
+    You're the engineer. I'm the product manager. Follow these on every change.
+
+    ## How to work
+    - Think first: before non-trivial code, say what you'll build and ask about anything unclear. Don't guess.
+    - Keep it simple: build the simplest thing that solves the problem. No extra features, no "just in case" code.
+    - Change only what I asked: don't rewrite or "improve" unrelated code. If you spot something, tell me, don't do it.
+    - Aim at a finish line: work to a clear, checkable "done," then show me how each item checks out.
+
+    ## How to write code
+    - Don't repeat yourself: one home for each piece of logic.
+    - Same name everywhere: if it's a "pickup," it's always a "pickup."
+    - Handle the sad path: every failure shows a friendly message and a way out.
+    - Leave a trail: log important actions (what happened, worked or failed, any error).
+    - Keep layers apart: screens, logic, and data storage stay separate.
+    - Self-contained features: each feature in its own folder.
+
+    ## Definition of done (every change clears all of these)
+    - It works and didn't break anything that worked before.
+    - Build, linter, and formatter are green.
+    - Any test fails on the old code and passes on the new (fail-first).
+    - It touched only what the task needed.
+    - It matches the project's names and patterns.
+
+    Working is the floor, not the bar.
+    ```
 11. **Integrations**: what the app connects to, and how. Note: official SDKs, not third-party wrappers.
 12. **Cost Breakdown**: monthly estimate with free-tier details. Include the architecture cost warnings.
 13. **Timeline**: phased, honest
