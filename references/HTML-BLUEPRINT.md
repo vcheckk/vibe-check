@@ -56,6 +56,8 @@ The only scripts in the file are those two CDN includes. Everything else is stat
       <section id="tech-stack">...</section>      <!-- cards: tool / what it does / cost -->
       <section id="cost">...</section>            <!-- table with free-tier details -->
       <section id="timeline">...</section>
+      <section id="distribution">...</section>    <!-- first 10 users, where they gather, the first move -->
+      <section id="growth-loop">...</section>     <!-- mermaid: the loop going around (or the honest no-loop note) -->
       <section id="build-phases">...</section>    <!-- numbered phases + checkpoints -->
       <section id="before-launch">...</section>   <!-- security / legal / accessibility -->
     </main>
@@ -85,6 +87,7 @@ The diagrams carry the weight. For a visual thinker, they explain more than any 
 - **System architecture.** Mermaid `flowchart` with friendly-labeled boxes showing how the pieces connect and how the data moves ("user adds a task → app saves it to the Database → AI Brain reads it → suggests the next one"). Draw the arrows in the direction the data actually travels.
 - **Build phases.** A simple vertical stack of numbered cards, each with its checkpoint summary, so the user sees the journey as a set of achievable steps instead of one terrifying leap.
 - **Cost.** A plain table. Each service, its free tier, and roughly when it starts costing money. Add a callout for the architecture cost warning from the plan (the "checking every 30 seconds gets expensive" point).
+- **Growth loop.** A small circular mermaid `flowchart` showing how one user's normal use creates the next user (user does the thing → it becomes visible to someone new → that someone signs up → back to the top). The arrow that closes the circle is the whole point, so make it visually obvious. If the app honestly has no loop, skip the diagram and render the distribution channel as the growth engine instead, warmly, not apologetically.
 
 ---
 

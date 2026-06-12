@@ -1,6 +1,6 @@
 # Growth Loops: The Fuller Playbook
 
-Phase 6.6 in SKILL.md is the beginner-light version: the reframe, the three buildable loop shapes, and the honest "not every app has one." This file is the detail behind it, the famous examples worth recognizing, the full taxonomy of loop types, how to sketch your loop's math, and the four ways to make a loop spin faster. Pull it in when the user wants to go deeper, or when their app clearly has a real loop worth designing with care. None of it needs a growth team.
+Phase 6.6 in SKILL.md is the beginner-light version: the reframe, the three buildable loop shapes, the three-question diagnostic, and the honest "not every app has one." This file is the detail behind it, the famous examples worth recognizing, the full taxonomy of loop types, how to sketch your loop's math, and the four ways to make a loop spin faster. Pull it in when the user wants to go deeper, or when their app clearly has a real loop worth designing with care. None of it needs a growth team.
 
 It's translated from Brian Balfour and Reforge's work on growth loops, with Casey Winters and Kevin Kwok's loop taxonomy, kept in plain language for someone who's never shipped a product.
 

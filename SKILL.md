@@ -398,9 +398,7 @@ A blunt gut-check to say out loud: "If you can't name where the first ten users 
 
 Phase 6.5 got your first ten users by hand. This phase asks the bigger question: once they're in, does the app bring in the next user on its own, or do you have to go fetch every single one yourself, forever?
 
-**The reframe, in plain words.** Most beginners picture growth as a one-way street: do some marketing, get some users, do more marketing, get more users. Pour effort in the top, forever. The day you stop pushing, growth stops. That's the slow, expensive way, and it's how most apps quietly die.
-
-The better question: **can using the app create the next user?** When the answer is yes, growth feeds itself. One user brings the next, who brings another. The product becomes its own marketing. That's a growth loop, and it's the difference between shoving a boulder uphill forever and a wheel that keeps itself spinning. You want it **viral** (users bring users) and **organic** (it happens for free, as a side effect of normal use, not because you bought an ad). Not every app has one, but you should always look, because finding one changes everything.
+**The reframe, in plain words.** Beginners picture growth as a one-way street: do marketing, get users, repeat forever, and the day you stop pushing, growth stops. The better question: **can using the app create the next user?** When the answer is yes, growth feeds itself. One user brings the next, and the product becomes its own marketing. That's a growth loop: the difference between shoving a boulder uphill forever and a wheel that keeps itself spinning. You want it **viral** (users bring users) and **organic** (free, a side effect of normal use, not a bought ad). Not every app has one, but always look, because finding one changes everything.
 
 **Three shapes a beginner can actually build.** Look at their app and see if any of these fit:
 
@@ -416,13 +414,25 @@ The better question: **can using the app create the next user?** When the answer
 
 (There's a fourth, the **referral loop**: give a friend $10, get $10. It works, but reach for it *last*. Paying people to invite each other is weaker and pricier than a loop where sharing is just how the product works. Lead with the three above; add referrals as a booster, not the main engine.)
 
-**Now make the call (your job, not theirs).** Don't lecture them on loop theory. Look at *their specific app*, and tell them which shape fits, with a concrete walk-through in their own app's terms. Like everywhere else in this skill: offer your answer, don't hand them a menu.
+**Find theirs with three questions, not a lecture.** Don't teach loop theory. Walk these with the user, one at a time (Rule 1), each phrased in their app's own terms:
 
-> "Here's how yours could grow on its own: every time a seller lists their moving sale, that page is public and shows up when someone Googles 'moving sale near me.' A buyer finds it, has a great experience, and when *they* move, they remember you and become a seller. That's a content loop, and it means every sale quietly recruits the next one."
+1. *"Does anything your users make ever end up where a stranger could find it?"* → a content loop is hiding there.
+2. *"Can someone use your app completely alone, or does using it naturally involve another person?"* → an invite loop.
+3. *"Would anyone ever see someone using your app, or see what it made, out in the wild?"* → a signal loop.
 
-**Build the loop into the core flow, or it won't spin.** The single biggest mistake is treating the loop as a "share" feature bolted on at the end that nobody taps. The loops that work are part of the thing the user does anyway: the output of using the app is *automatically* shareable, public, or visible. Tie it to the aha moment from Phase 2: the instant they feel the value is the instant to let that value spill out to someone new. Design it in now, not later.
+Three nos is a real answer (see the honest part below). Any yes, and you make the call yourself (Rule 2): name the shape and walk it concretely in *their* app, like these:
 
-**Then name the one number that proves it's working.** No spreadsheet needed, just one honest metric: *what share of new users came from an existing user's activity* (a shared page, a public post, a visible badge)? If that number climbs, the loop is real. If it's near zero, the loop is a nice story that isn't spinning yet.
+> *Content:* "Every moving sale your seller lists is a public page that shows up when someone Googles 'moving sale near me.' The buyer who finds it has a great experience, and when *they* move, they become your next seller. Every sale quietly recruits the next one."
+>
+> *Invite:* "Every invoice your user sends lands in a client's inbox with your tool's name at the bottom. The client who pays one is two clicks from becoming a user who sends one."
+>
+> *Signal:* "That share-your-streak image people post after a workout *is* the loop. Their friends see it, ask about it, and download the app."
+
+**Draw it (Rule 8).** A loop you can see going around explains itself in a way no paragraph can. Sketch their loop as a small circular mermaid diagram (user does the thing → the thing becomes visible to someone new → that someone signs up → back to the top) and put it in the plan and the HTML blueprint.
+
+**Build the loop into the core flow, or it won't spin.** The single biggest mistake is treating the loop as a "share" feature bolted on at the end that nobody taps. The loops that work are part of the thing the user does anyway: the output of using the app is *automatically* shareable, public, or visible. Tie it to the aha moment from Phase 2: the instant they feel the value is the instant to let that value spill out to someone new. And whatever the loop needs to exist (the public listing page, the send-to-client step, the shareable streak image) goes on the **V1 feature list in Phase 8**, not the someday pile. A loop deferred to V2 is a loop that never starts spinning.
+
+**Then name the one number that proves it's working,** and make it cheap to collect: a "how did you hear about us?" question at signup, or a special link (`?ref=...`) on anything public or shared. The metric is *what share of new users came from an existing user's activity* (a shared page, a public post, a visible badge). If that number climbs, the loop is real. If it's near zero, the loop is a nice story that isn't spinning yet.
 
 **The honest part: not every app has a loop, and a fake one is worse than none.** A private personal tool, a niche internal thing, a single-player utility, some of these just don't have a natural viral loop, and that's fine. Don't bolt on a spammy "invite 5 friends to unlock" wall; it makes the product worse and beginners can smell it. If there's no honest loop, say so plainly and lean harder on the Phase 6.5 channel instead: "this one won't grow by itself, so showing up in [their community] every week IS your growth engine, and that's a perfectly real way to grow."
 
@@ -499,7 +509,7 @@ Compile everything into a structured plan with these sections:
 12. **Cost Breakdown**: monthly estimate with free-tier details. Include the architecture cost warnings.
 13. **Timeline**: phased, honest
 14. **Distribution**: who the first 10 users are, the one place they already gather, and the first concrete move to reach them, pulled from the Phase 0 discovery communities. Start before launch, not after.
-15. **Growth Loop**: the one way the app recruits its next user on its own (a content, invite, or signal loop), built into the core flow rather than bolted on, plus the single number that tells you it's spinning. Or, if there's no honest loop, a plain note saying so and pointing back at the distribution channel as the growth engine instead.
+15. **Growth Loop**: the one way the app recruits its next user on its own (a content, invite, or signal loop), drawn as a small loop diagram, with its enabling feature on the V1 list and the single cheap-to-collect number that tells you it's spinning. Or, if there's no honest loop, a plain note saying so and pointing back at the distribution channel as the growth engine instead.
 16. **Things to Handle Before Launch**: the security, legal, and accessibility checklist
 17. **Pre-Launch Audits**: drop in these three prompts for the user to run before they show the app to a single soul:
     - *Security audit:* "Audit my codebase for security vulnerabilities. Check authentication, authorization, input validation, rate limiting, secrets management, file upload security, CORS/CSRF protections, and timing attacks. Give me a severity rating for each issue found."
